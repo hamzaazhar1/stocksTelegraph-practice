@@ -1,0 +1,37 @@
+.paginationMain{
+    border:1.5px solid var(--tableBackground-color);
+    border-radius: 1em;
+    overflow: hidden;
+    color: var( --market-cap-color);
+}
+.paginationMain button{
+    padding:0.8rem;
+    background-color: transparent;
+    color: var(--market-cap-color);
+    border-bottom: none;
+    border-top: none;
+}
+.paginationMain button:hover{
+    background-color: var(--table-body-background-color);
+    color: var(--tableBackground-color);
+    cursor: pointer;
+}
+.paginationButtonFirst{
+    border-right: 1px solid var(--tableBackground-color);
+    border-left: none;
+}
+.paginationButtonLast{
+    border-left: 1px solid var(--tableBackground-color);
+    border-right: none;
+}
+.paginationButtonsNumbered{
+    border-right: 1px solid var(--tableBackground-color);
+    border-left: 1px solid var(--tableBackground-color);
+    
+    
+}
+.active{
+    background-color: var(--tableBackground-color)!important;
+    color: white!important;
+    border: none!important;
+}

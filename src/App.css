@@ -1,0 +1,70 @@
+#root {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+
+.table{
+  margin:0;
+  min-width: 1150px;
+  padding: 2em 5em;
+  text-align: left;
+  color:var(--table-font-color);
+  border-collapse: collapse;
+  
+   
+}
+tr{
+  border-bottom: 1px solid black;
+}
+tr:last-child{
+  border: none;
+}
+td,th{
+  padding: 0.8rem 0rem;
+  padding-left: .5rem;
+}
+
+.tableHead{
+  background-color: var(--tableBackground-color);
+  color: white;
+}
+.clickableHeader{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tableBody{
+  background-color: var(--table-body-background-color);
+  
+}
+.green{
+  color: var(--tableBackground-color);
+}
+.grey{
+  color: var(--market-cap-color);
+}
+.red{
+  color:var(--change-percentage-24h);
+}
+.clickable:hover{
+  cursor: pointer;
+}
+.tableContainer{
+  width: 100%;
+  /* overflow-x:hidden;
+  overflow-y: hidden; */
+  overflow: auto;
+  border-radius: 1rem;
+  box-sizing: border-box;
+
+}
+.pagination{
+  margin-top: 1rem;
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
